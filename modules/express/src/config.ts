@@ -53,7 +53,8 @@ export const EnvConfig = (): Config => ({
 
 export const DefaultConfig: Config = {
   port: 3080,
-  bind: 'localhost',
+  // bind: 'localhost',
+  bind: '0.0.0.0',
   env: 'test',
   debugNamespace: [],
   logFile: '',
